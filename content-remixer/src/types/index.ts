@@ -40,3 +40,4 @@ export interface OpenAIResponse {
     total_tokens: number;
   };
 }
+

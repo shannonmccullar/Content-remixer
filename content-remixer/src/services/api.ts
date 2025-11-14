@@ -69,3 +69,4 @@ export const remixContent = async (request: RemixRequest): Promise<RemixResponse
 export const checkApiKey = (): boolean => {
   return !!API_KEY;
 };
+

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles for the sidebar */
+.sidebar {
+  width: 320px;
+  min-width: 320px;
+  max-width: 320px;
+  flex-shrink: 0;
+}
+
+/* Ensure saved post boxes stay compact */
+.saved-post-box {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.saved-post-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
